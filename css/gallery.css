@@ -1,0 +1,183 @@
+
+body {
+    margin: 0;
+    font-family: Playfair Display;
+    max-width: 100%;
+    overflow-x: hidden;
+background-color: white;
+color:rgba(90, 77, 54, 0.678);
+}
+
+.back-arrow img{ 
+    width: 3rem;
+    height: 4rem;
+ }
+
+.back-arrow{  
+    position: absolute;
+    animation: moveLeftRight 4s linear infinite;
+  }
+  #back-arrow {
+    height: 3.5rem;
+  }
+
+  @keyframes moveLeftRight {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: 3rem;
+    }
+    100% {
+      left: 0;
+    }
+  }
+  .overall{
+  
+    top:-1.3rem;
+  }
+  h2{
+    height: 3rem;
+    text-align: center;
+  }
+  .overallpic img{
+    height: 15rem;
+    width: 20rem;
+   margin: 5px;
+  }
+  .overallpic{
+        position: relative;
+        top:-1rem;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+  }
+  h3{
+    text-align: right;
+    margin-right: 1rem;
+    font-family:Croissant One;
+
+  }
+h3 a{
+    color: rgb(68, 64, 64);
+    text-decoration: none;
+  }
+
+h3 a:hover{
+    text-decoration: underline 2px black;
+    color: black;
+    }
+    .room{
+        top:-1.5rem;
+      }
+      
+      .roompic img{
+        height: 15rem;
+        width: 20rem;
+       margin: 5px;
+      }
+      .roompic{
+        position: relative;
+        top:-1rem;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }  
+      .pool{
+        top:-1.5rem;
+      }
+      
+      .poolpic img{
+        height: 15rem;
+        width: 20rem;
+       margin: 5px;
+      }
+      .poolpic{
+        position: relative;
+        top:-1rem;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }  
+      .bar{
+        top:-1.5rem;
+      }
+     
+      .barpic img{
+        height: 15rem;
+        width: 20rem;
+       margin: 5px;
+      }
+      .barpic{
+        position: relative;
+        top:-1rem;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }  
+    
+      
+      footer {
+        background-color: rgb(80, 49, 49);
+        padding: 2rem;
+        color:rgba(238, 233, 233, 0.815);
+
+    }
+      .footer-content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        border-bottom: 0.2rem solid white;
+      }
+      .footer-section {
+        max-width: 250px;
+        margin-bottom: 20px;
+      }
+      .footer-section h2 {
+        font-size: 1.2em;
+        margin-bottom: 1rem;
+        font-family: Playfair Display;
+        color:rgba(238, 233, 233, 0.815);
+
+      }
+      
+      .footer-section p {
+        margin: 0;
+      }
+      
+      .footer-section a {
+        display: block;
+        margin-bottom: 0.5rem;
+        text-decoration: none;
+        color: rgb(177, 103, 103);
+      }
+       .footer-section a:hover {
+          color: #007BFF;
+        }
+        
+        form {
+          display: flex;
+          margin-bottom: 1rem;
+        }
+        form button {
+          padding: 1rem 1rem;
+          background-color: #007BFF;
+          color: white;
+          border: none;
+        }
+      
+        form button:hover {
+          background-color: #0056b3;
+        }
+       .footer-bottom{
+        text-align: center;
+       }
+      .social-media{
+        display: flex;
+      justify-content: center;
+      }
+      .social-media a{
+        margin: 0.3rem;
+        font-family: Playfair Display ;
+      }
+      

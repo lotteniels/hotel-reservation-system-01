@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>TadomahHotel - make a reservation</title>
+            <link rel="shortcut icon" type="image/icon" sizes="16x16px"
+                              href="images/logo.png">
+            <link rel="apple-touch-icon" href="images/logo.png">
+            <link rel="stylesheet" href="css/signup.css">
+        </head>
+        <header> 
+            <div id="back-arrow">
+                 <div class="back-arrow">
+           <a href="index.html"> <img src="images/back.png" alt="image loading">
+           </a>
+           </div>
+        </div> 
+        </header>  
+        <script>
+            function submitLogin() {
+              alert('Logged into account!');
+            }
+          
+            function submitSignup() {
+              alert('New account created !');
+            }
+          
+            function showSignup() {
+              document.getElementById('loginForm').style.display = 'none';
+              document.getElementById('signupForm').style.display = 'block';
+            }
+          
+            function showLogin() {
+              document.getElementById('loginForm').style.display = 'block';
+              document.getElementById('signupForm').style.display = 'none';
+            }
+          </script>
+<body>
+    <div class="container">
+        <div class="form-container" id="loginForm">
+            <h2>Login</h2>
+            <label for="loginEmail">Email:</label>
+            <input type="email" id="loginEmail" name="loginEmail" required>
+
+            <label for="loginPassword">Password:</label>
+            <input type="password" id="loginPassword" name="loginPassword" required>
+        
+            <div class="extra-links">
+              <label><input type="checkbox"> Remember me</label>
+              <a href="#">Forgot Password?</a>
+            </div>
+            <button onclick="submitLogin()">Login</button>
+
+    <div class="extra-links">
+      <span>Not registered? <a href="#" onclick="showSignup()">Create an account</a></span>
+    </div>
+  </div>
+        
+        <div class="form-container" id="signupForm" style="display: none;">
+            <h2>Sign Up.</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        
+            <button onclick="submitSignup()">Sign Up</button>
+        
+            <div class="extra-links">
+              <span>Already have an account? <a href="#" onclick="showLogin()">Login</a></span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

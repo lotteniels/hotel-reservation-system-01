@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TadomahHotel - make a reservation</title>
+        <link rel="shortcut icon" type="image/icon" sizes="16x16px"
+                          href="images/logo.png">
+        <link rel="apple-touch-icon" href="images/logo.png">
+        <link rel="stylesheet" href="css/about.css">
+        <script src="javascript/main.js" defer></script>  
+    </head>
+    <script>
+        // Get the current URL
+        const currentUrl = window.location.href;
+      
+        // Function to set the active link based on the current URL
+        function setActiveLink() {
+          const links = document.querySelectorAll('.tops ol li a');
+          links.forEach(link => {
+            if (currentUrl.includes(link.getAttribute('href'))) {
+              link.classList.add('active');
+            }
+          });
+        }
+      
+        // Set the active link on page load
+        window.onload = setActiveLink;
+      </script>
+<header> 
+  <div id="back-arrow">
+       <div class="back-arrow">
+ <a href="index.html"> <img src="images/back.png" alt="image loading">
+ </a>
+ </div>
+</div> 
+</header>       <div class="content">
+        <div class="image-slider">
+             <div class="img-container">
+                      <img src="images/suitess.jpg" alt=" image loading">
+                      <img src="images/gallery2.jpg" alt="image loading" >
+                      <img src="images/p5.jpg" alt=" image loading">
+                      <img src="images/gallery3.jpg" alt=" image loading">
+                      <img src="images/br1.webp" alt="image loading" >
+                      <img src="images/pooll7.jpg" alt=" image loading">
+                      <img src="images/bar1.jpg" alt=" image loading">
+                    </div>
+             <div class="dots-container">
+              <span class="dot" onclick="showSlide(0)"></span>
+              <span class="dot" onclick="showSlide(1)"></span>
+              <span class="dot" onclick="showSlide(2)"></span>
+              <span class="dot" onclick="showSlide(3)"></span>
+              <span class="dot" onclick="showSlide(4)"></span>
+              <span class="dot" onclick="showSlide(5)"></span>
+              <span class="dot" onclick="showSlide(6)"></span>
+
+         </div>
+        <div id="main">
+            <div class="logo2"><img src="images/logo2.png" alt="image loading" height="80px" width="200px">
+            </div> <br><br><br><br>
+               
+          </div>
+        </div>
+          </div>
+          <h1 class="tops">
+           
+            <ol>
+                <li><a href="about.html"> OUR. HOTEL</a></li>
+                <li><a href="location.html">OUR LOCATION</a></li>
+                <li><a href="recentq.html">RECENTLY ASKED QUESTIONS</a></li>
+
+            </ol>
+          </h1>
+          
+          <div class="location">
+            <strong><h2>How to find us? </h2></strong>
+            <p>Located at coordinates 5.648309894332994 latitude and -0.2571373268530977 longitude, 
+              Tadomah Hotel in Accra offers a strategically positioned urban retreat. Situated near 
+              the Nsawam Main Road and close to the Taifa Overpass, the hotel provides easy access to 
+              leisure and business activities. Its proximity to these key landmarks ensures convenience
+               for guests, allowing them to explore the vibrant cityscape and attend events with ease. 
+               The surrounding area, characterized by the dynamic intersection of the Nsawam Main Road and
+                the Taifa Overpass, enhances the hotel's accessibility and enriches the overall stay.
+          
+            </p>
+          </div>
+            <p> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.
+              446825043504!2d-0.2571373268530977!3d5.648309894332994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13
+              .1!3m3!1m2!1s0xfdf9ed2f8874aa1%3A0x65023e2f342868c2!2sTadomah%20Hotel!5e0!3m2!1sen!2sgh!4v1700072882049
+              !5m2!1sen!2sgh" width="100%" height="50%" style="border:0;"
+                 allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </p>
+</body>
+<footer>
+  <div class="footer-content">
+    <div class="footer-section contact">
+      <h2>Contact Us</h2>
+      <p>If you have any questions or need assistance, feel free to contact us:</p>
+      <p>Email:<a href="mailto:booKTadomah@gmail.com">booKTadomah@gmail.com</a> </p>
+      <p>Phone:<a href="tel:+233596355846"> +233 596 255846</a></p>
+      <p>Address: PO BOX 238 Mile 7, Achimota</p>
+    </div>
+    
+ <div class="footer-section explore">
+  <img src="images/logo12.png" alt="image loading"height="50rem" width="80rem" >
+
+  <h2>Explore</h2>
+    <a href="about.html">About Us</a>
+    <a href="room.html">Rooms</a>
+    <a href="amenities.html">Amenities</a>
+    <a href="special.html">Specials</a>
+</div>
+
+    <div class="footer-section newsletter"><br><br><br>
+      <h2>Subscribe to Our Newsletter</h2>
+      <p>Stay updated with our latest offers and promotions. Subscribe to our newsletter!</p>
+      <form>
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+
+      <div class="social-media">
+        <h3>follow us on</h3>
+      <a href="https://www.facebook.com" target="_blank"><img src="images/facebook (1).png" alt="image loading" height="30px" width="30px"></a>
+      <a href="#" target="_blank"><img src="images/instagram (2).png" alt="image loading" height="30px" width="30px"></a>
+      <a href="#" target="_blank"><img src="images/twitter (1).png" alt="image loading" height="30px" width="30px"></a>
+    </div>
+
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2023 TadomahHotel. All Rights Reserved.</p>
+  </div>
+</footer>  
+</html>

@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+   background-image: url(../images/pic.JPG);
+    max-width: 100%;
+    overflow-x: hidden;
+    background-attachment: fixed;
+    color:rgba(90, 77, 54, 0.678);
+}
+h1,h2{
+  color:rgba(82, 70, 70, 0.63);
+
+}
+/*header  and sliding pics*/
+
+.back-arrow img{ 
+  width: 2.5rem;
+  height: 3rem;
+}
+
+.back-arrow{  
+  position: absolute;
+  animation: moveLeftRight 4s linear infinite;
+}
+#back-arrow {
+  position: relative;
+  height: 3.5rem;
+  z-index: 1000;
+
+}
+
+@keyframes moveLeftRight {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 3rem;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+
+  #main{ 
+    position: relative;
+    top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+  
+   
+   #main p{
+  font-size: 1.4rem;
+  font-family:Croissant One;
+  text-align: center;
+  position: relative;
+  top: 2rem;
+  color: white;
+  }
+  
+  /*book a reservation colomn*/
+
+.available{
+    position: relative;
+    top: 150px;
+    height:8rem;
+    filter: 5px; 
+    align-items: center;  
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+}
+.available{
+  background-color: rgba(226, 212, 201, 0.7); 
+    backdrop-filter: blur(2px); 
+    padding: 20px;
+
+}
+
+.group {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    margin-right: 1rem;
+}
+.available input{
+    font-size: 2rem;
+}
+#adults{
+    width: 50px;
+    font-size: 1rem;
+}
+#kids{
+    width: 50px;
+    font-size: 1rem;
+}
+
+fieldset{
+    width: 300px;
+    font-size:20px ;
+    margin-right:1rem;
+}
+
+.available form{
+    display: inline-flex;
+    position: relative;
+    top: 30%;
+    font-family:Croissant One;
+  }
+/*footer*/
+
+footer {
+  background-color: rgb(80, 49, 49);
+  padding: 2rem;
+  color: white;
+  position: relative;
+  top: 9.3rem;
+  color:rgba(238, 233, 233, 0.815);
+}
+h3{
+  font-family:Croissant One;
+
+}
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-bottom: 0.2rem solid white;
+}
+.footer-section {
+  max-width: 250px;
+  margin-bottom: 20px;
+}
+.footer-section h2 {
+  font-size: 1.2em;
+  margin-bottom: 1rem; 
+   color:rgba(238, 233, 233, 0.815);
+  font-family: Playfair Display;
+}
+
+.footer-section p {
+  margin: 0;
+}
+
+.footer-section a {
+  display: block;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  color: rgb(177, 103, 103);
+}
+ .footer-section a:hover {
+    color: #007BFF;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  form button {
+    padding: 1rem 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+  }
+
+  form button:hover {
+    background-color: #0056b3;
+  }
+ .footer-bottom{
+  text-align: center;
+ }
+.social-media{
+  display: flex;
+justify-content: center;
+}
+.social-media a{
+  margin: 0.3rem;
+  font-family: Playfair Display ;
+}
+
+

@@ -1,0 +1,55 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+background-color: burlywood;
+    color:rgba(238, 233, 233, 0.815);
+
+}
+
+.back-arrow img{ 
+    width: 3rem;
+    height: 4rem;
+ }
+
+.back-arrow{  
+    position: absolute;
+    animation: moveLeftRight 4s linear infinite;
+  }
+  #back-arrow {
+    height: 3.5rem;
+  }
+
+  @keyframes moveLeftRight {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: 3rem;
+    }
+    100% {
+      left: 0;
+    }
+  }
+  .overall{
+  
+    top:-1.3rem;
+  }
+  h2{
+    height: 3rem;
+    text-align: center;
+  }
+  .overallpic img{
+    height: 15rem;
+    width: 20rem;
+   margin: 5px;
+  }
+  .overallpic{
+        position: relative;
+        top:-1rem;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+  }

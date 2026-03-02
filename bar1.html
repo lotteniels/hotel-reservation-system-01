@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TadomahHotel - make a reservation</title>
+        <link rel="shortcut icon" type="image/icon" sizes="16x16px"
+                          href="images/logo.png">
+        <link rel="apple-touch-icon" href="images/logo.png">
+        <link rel="stylesheet" href="css/restaurant.css">
+    </head>
+    <header> 
+        <div id="back-arrow">
+             <div class="back-arrow">
+       <a href="index.html"> <img src="images/back.png" alt="image loading">
+       </a>
+       </div>
+    </div> 
+    </header> 
+    <script>
+      // Get the current URL
+      const currentUrl = window.location.href;
+    
+      // Function to set the active link based on the current URL
+      function setActiveLink() {
+        const links = document.querySelectorAll('.topic ol li a');
+        links.forEach(link => {
+          if (currentUrl.includes(link.getAttribute('href'))) {
+            link.classList.add('active');
+          }
+        });
+      }
+    
+      // Set the active link on page load
+      window.onload = setActiveLink;
+    </script>   
+    <body>
+        <div class="content">
+            <div class="image-slider">
+                 <div class="img-container">
+                      <img src="images/bar1.jpg" alt=" image loading">
+                 </div>
+                
+            <div id="main">
+                <div class="logo2"><img src="images/logo2.png" alt="image loading" height="80px" width="200px">
+                </div> <br><br><br><br>
+                  <p>TadomahHotel
+                  <br> Your Ultimate Destination for Luxury and Comfort.</p>  
+              </div>
+              
+              </div>
+        </div>
+        <div class="topic">
+            <ol>
+             <li><h1> <a href="restaurant.html"> RESTAURANT</a></h1></li> 
+                   <li> <h1>  <a href="bar1.html">BAR </a></h1></li> 
+                 </ol>
+                 
+               </div>
+          <h1>OUR BAR</h1>
+          <h3>
+            Sip and unwind at our 24/7 hotel bar. Whether you're craving a morning coffee,<br>
+             a midday cocktail, or an evening nightcap,our bar is always open to serve you.<br>
+              Enjoy your favorite drinks whenever the mood strikes."
+          </h3>  
+          <div class="food">
+            <div class="foodie">
+                <img src="images/Bacardi 151.webp" alt="image loading">
+                <p>BACARDI<br>
+                GH 100.00
+                </p>
+            </div>
+            <div class="foodie">
+                <img src="images/bloody mary.jpeg" alt="image loading">
+                <p>BLOODY MARY <br>
+                    GH 50.00
+                    </p>            </div>
+            <div class="foodie">
+                <img src="images/Everclear 190.webp" alt="image loading">
+                <p>EVERCLEAR <br>
+                    GH 100.00
+                </p>            </div>
+            <div class="foodie">
+                <img src="images/Golden Grain 190.webp" alt="image loading">
+                <p>GOLDEN GRAIN 190<br>
+                    GH 100.00
+                </p>            </div>
+            <div class="foodie">
+                <img src="images/bloody mary.jpeg" alt="image loading">
+                <p>MAGARITA<br>
+                    GH 40.00
+                    </p>            </div>
+            
+            <div class="foodie">
+                <img src="images/mimosa.jpeg" alt="image loading">
+                <p>MIMOSA<br>
+                    GH 35.00
+                    </p>            </div>
+            <div class="foodie">
+                <img src="images/Stroh 160 Rum.webp" alt="image loading">
+                <p>STROH 160 RUM<br>
+                    GH 100.00
+                </p>           
+                 </div>
+            <div class="foodie">
+                <img src="images/Whisky.webp" alt="image loading">
+                <p>WHISKEY <br>
+                    GH 100.00
+                </p>
+                </div>  
+                    <div class="foodie">
+                        <img src="images/tequila sunrise.jpeg" alt="image loading">
+                        <p>TEQUILA SUNRISE<br>
+                            GH 100.00
+                        </p>
+                        </div>  
+                            <div class="foodie">
+                                <img src="images/Sunset Very Strong Rum.webp" alt="image loading">
+                                <p>SUNSET STRONG RUM<br>
+                                    GH 100.00
+                                </p>  
+                          </div>
+                          <div class="foodie">
+                            <img src="images/co.jpeg " alt="image loading">
+                            <p>COFFEE<br>
+                                GH 10.00
+                            </p>  
+                      </div>
+          </div>
+   
+</body>
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, feel free to contact us:</p>
+        <p>Email:<a href="mailto:booKTadomah@gmail.com">booKTadomah@gmail.com</a> </p>
+        <p>Phone:<a href="tel:+233596355846"> +233 596 255846</a></p>
+        <p>Address: PO BOX 238 Mile 7, Achimota</p>
+      </div>
+      
+   <div class="footer-section explore">
+    <img src="images/logo12.png" alt="image loading"height="50rem" width="80rem" >
+  
+    <h2>Explore</h2>
+    <a href="about.html">About Us</a>
+    <a href="room.html">Rooms</a>
+    <a href="amenities.html">Amenities</a>
+    <a href="special.html">Specials</a>
+  </div>
+  
+      <div class="footer-section newsletter"><br><br><br>
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Stay updated with our latest offers and promotions. Subscribe to our newsletter!</p>
+        <form>
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+  
+        <div class="social-media">
+          <h3>follow us on</h3>
+        <a href="https://www.facebook.com" target="_blank"><img src="images/facebook (1).png" alt="image loading" height="30px" width="30px"></a>
+        <a href="#" target="_blank"><img src="images/instagram (2).png" alt="image loading" height="30px" width="30px"></a>
+        <a href="#" target="_blank"><img src="images/twitter (1).png" alt="image loading" height="30px" width="30px"></a>
+      </div>
+  
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>&copy; 2023 TadomahHotel. All Rights Reserved.</p>
+    </div>
+  </footer>  
+</html>

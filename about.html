@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TadomahHotel - make a reservation</title>
+        <link rel="shortcut icon" type="image/icon" sizes="16x16px"
+                          href="images/logo.png">
+        <link rel="apple-touch-icon" href="images/logo.png">
+        <link rel="stylesheet" href="css/about.css">
+        <script src="javascript/main.js" defer></script>  
+    </head>
+    <script>
+        // Get the current URL
+        const currentUrl = window.location.href;
+      
+        // Function to set the active link based on the current URL
+        function setActiveLink() {
+          const links = document.querySelectorAll('.tops ol li a');
+          links.forEach(link => {
+            if (currentUrl.includes(link.getAttribute('href'))) {
+              link.classList.add('active');
+            }
+          });
+        }
+      
+        // Set the active link on page load
+        window.onload = setActiveLink;
+      </script>
+      
+    <header> 
+        <div id="back-arrow">
+             <div class="back-arrow">
+       <a href="index.html"> <img src="images/back.png" alt="image loading">
+       </a>
+       </div>
+    </div> 
+    </header> 
+<body>
+    <div class="content">
+        <div class="image-slider">
+             <div class="img-container">
+                      <img src="images/suitess.jpg" alt=" image loading">
+                      <img src="images/gallery2.jpg" alt="image loading" >
+                      <img src="images/p5.jpg" alt=" image loading">
+                      <img src="images/gallery3.jpg" alt=" image loading">
+                      <img src="images/br1.webp" alt="image loading" >
+                      <img src="images/pooll7.jpg" alt=" image loading">
+                      <img src="images/bar1.jpg" alt=" image loading">
+                    </div>
+             <div class="dots-container">
+              <span class="dot" onclick="showSlide(0)"></span>
+              <span class="dot" onclick="showSlide(1)"></span>
+              <span class="dot" onclick="showSlide(2)"></span>
+              <span class="dot" onclick="showSlide(3)"></span>
+              <span class="dot" onclick="showSlide(4)"></span>
+              <span class="dot" onclick="showSlide(5)"></span>
+              <span class="dot" onclick="showSlide(6)"></span>
+
+         </div>
+        <div id="main">
+            <div class="logo2"><img src="images/logo2.png" alt="image loading" height="80px" width="200px">
+            </div> <br><br><br><br>
+               
+          </div>
+        </div>
+      </div>
+          <h1 class="tops">
+           
+            <ol>
+                <li><a href="about.html"> OUR HOTEL</a></li>
+                <li><a href="location.html">OUR LOCATION</a></li>
+                <li><a href="recentq.html">RECENTLY ASKED QUESTIONS</a></li>
+
+            </ol>
+          </h1>
+    
+          <div class="about">
+            <img src="images/s4.jpg" alt="image loading" height="500rem" width="600rem">
+            <div class="aboutus">
+                <h2>our hotel</h2>
+                <p> Experience the everlasting charm of Tadomah Hotel, a tranquil
+                    oasis nestled in the heart of vibrant Tantra Hills, Accra. 
+                     Since its grand opening on March 27th, 1992, Tadomah Hotel,a three star hotel
+                     has been an epitome of timeless elegance and warm hospitality.
+                 
+                     With a dedicated team of 37 diligent and passionate employees, 
+                     including our esteemed hotel manager, Tadomah Hotel exudes a 
+                     sense of luxury and comfort that caters to the discerning tastes 
+                     of both business travelers and adventurous romantics alike.
+                 
+                     Our doors are wide open, extending a warm welcome to everyone, 
+                     whether you're a worldly traveler from afar or a proud citizen of
+                     Ghana. At Tadomah Hotel, you'll find a harmonious blend of international
+                     allure and local charm, creating an atmosphere that truly feels like a second home. 
+                     Tadomah Hotel provides accommodation with a restaurant ,
+                     free private parking and a bar.
+                     Free WiFi and a 24-hour front desk are provided.
+                     Guest rooms at the hotel are equipped with a seating area,wifi
+                     a TV with cable channels and a private bathroom with free
+                     toiletries and a shower. The units at Tadomah Hotel 
+                     include air conditioning and a desk.
+                     Guests at the accommodation can enjoy a continental breakfast.
+                     Come and experience the serenity and sophistication that have made Tadomah Hotel an
+                     enduring gem in the bustling tapestry of Accra..
+                   </p>
+          </div>
+          
+          </div>
+          <div class="reasons">
+          <strong><h2>Why stay with us? </h2></strong>
+      There are many reasons why you should visit our Hotel and here are 5 reasons why you should stay with us.
+    </div>
+<div class="reasons">
+    
+    <strong>Urban Retreat:</strong>
+    <p>Nestled in the vibrant heart of Accra, <strong>Tadomah Hotel</strong> offers a strategic location for both leisure and business pursuits. Whether you're keen on exploring the city's landmarks or attending a conference, our central position ensures convenience and enriches your overall experience.</p>
+    
+    <strong>Luxurious Living:</strong>
+    <p>Our accommodations redefine opulence, seamlessly blending contemporary elegance with the rich tapestry of Ghanaian culture. With the most spacious rooms and suites in Accra, each space is meticulously designed to provide a rejuvenating sanctuary for our guests at the end of a busy day.</p>
+    
+    <strong>Distinctive Culinary Journeys:</strong>
+    <p>Embark on a gastronomic adventure like no other at our diverse dining venues. Our talented chefs create culinary masterpieces inspired by a range of cuisines, promising to tantalize your taste buds with every bite.</p>
+    
+    <strong>Tailored Hospitality:</strong>
+    <p>At <strong>Tadomah Hotel</strong>, every guest is treated as a VIP. Our dedicated team, represented by our esteemed Lady in Red, ensures that your journey with us is unforgettable and that your stay is personalized to suit your preferences.</p>
+    
+    <strong>Rooftop Oasis:</strong>
+    <p>Immerse yourself in an unparalleled experience at our rooftop infinity pool. Whether you're cooling off after a busy day or unwinding with a cocktail, the serene atmosphere is designed to make you feel completely stress-free.</p>
+ 
+</div>
+</body>
+<footer>
+  <div class="footer-content">
+    <div class="footer-section contact">
+      <h2>Contact Us</h2>
+      <p>If you have any questions or need assistance, feel free to contact us:</p>
+      <p>Email:<a href="mailto:booKTadomah@gmail.com">booKTadomah@gmail.com</a> </p>
+      <p>Phone:<a href="tel:+233596355846"> +233 596 255846</a></p>
+      <p>Address: PO BOX 238 Mile 7, Achimota</p>
+    </div>
+    
+ <div class="footer-section explore">
+  <img src="images/logo12.png" alt="image loading"height="50rem" width="80rem" >
+  
+  <h2>Explore</h2>
+  <a href="about.html">About Us</a>
+  <a href="room.html">Rooms</a>
+  <a href="amenities.html">Amenities</a>
+  <a href="special.html">Specials</a>
+</div>
+
+    <div class="footer-section newsletter"><br><br><br>
+      <h2>Subscribe to Our Newsletter</h2>
+      <p>Stay updated with our latest offers and promotions. Subscribe to our newsletter!</p>
+      <form>
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+
+      <div class="social-media">
+        <h3>follow us on</h3>
+      <a href="https://www.facebook.com" target="_blank"><img src="images/facebook (1).png" alt="image loading" height="30px" width="30px"></a>
+      <a href="#" target="_blank"><img src="images/instagram (2).png" alt="image loading" height="30px" width="30px"></a>
+      <a href="#" target="_blank"><img src="images/twitter (1).png" alt="image loading" height="30px" width="30px"></a>
+    </div>
+
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2023 TadomahHotel. All Rights Reserved.</p>
+  </div>
+</footer> 
+</html>

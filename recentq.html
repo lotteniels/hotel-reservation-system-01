@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TadomahHotel - make a reservation</title>
+        <link rel="shortcut icon" type="image/icon" sizes="16x16px"
+                          href="images/logo.png">
+        <link rel="apple-touch-icon" href="images/logo.png">
+        <link rel="stylesheet" href="css/about.css">
+        <script src="javascript/main.js" defer></script>  
+    </head>
+    <script>
+        // Get the current URL
+        const currentUrl = window.location.href;
+      
+        // Function to set the active link based on the current URL
+        function setActiveLink() {
+          const links = document.querySelectorAll('.tops ol li a');
+          links.forEach(link => {
+            if (currentUrl.includes(link.getAttribute('href'))) {
+              link.classList.add('active');
+            }
+          });
+        }
+      
+        // Set the active link on page load
+        window.onload = setActiveLink;
+      </script>
+    <header> 
+        <div id="back-arrow">
+             <div class="back-arrow">
+       <a href="index.html"> <img src="images/back.png" alt="image loading">
+       </a>
+       </div>
+    </div> 
+    </header> 
+<body>
+  <div class="content">
+    <div class="image-slider">
+      <div class="img-container">
+        <img src="images/suitess.jpg" alt=" image loading">
+        <img src="images/gallery2.jpg" alt="image loading" >
+        <img src="images/p5.jpg" alt=" image loading">
+        <img src="images/gallery3.jpg" alt=" image loading">
+        <img src="images/br1.webp" alt="image loading" >
+        <img src="images/pooll7.jpg" alt=" image loading">
+        <img src="images/bar1.jpg" alt=" image loading">
+</div>
+<div class="dots-container">
+<span class="dot" onclick="showSlide(0)"></span>
+<span class="dot" onclick="showSlide(1)"></span>
+<span class="dot" onclick="showSlide(2)"></span>
+<span class="dot" onclick="showSlide(3)"></span>
+<span class="dot" onclick="showSlide(4)"></span>
+<span class="dot" onclick="showSlide(5)"></span>
+<span class="dot" onclick="showSlide(6)"></span>
+
+</div>
+    <div id="main">
+        <div class="logo2"><img src="images/logo2.png" alt="image loading" height="80px" width="200px">
+        </div> <br><br><br><br>
+           
+      </div>
+    </div>
+      </div>
+          <h1 class="tops">
+           
+            <ol>
+                <li><a href="about.html"> OUR HOTEL</a></li>
+                <li><a href="location.html">OUR LOCATION</a></li>
+                <li><a href="recentq.html">RECENTLY ASKED QUESTIONS</a></li>
+
+            </ol>
+          </h1>
+          <div class="recentq">
+            <strong><h2>Recently asked questions </h2></strong>
+
+            1. Q: Where is Tadomah Hotel located?
+   <p>A: Tadomah Hotel is conveniently situated in the picturesque area of <strong>Tantra Hills</strong> in Accra, providing a tranquil and accessible escape for both business and leisure travelers.</p>
+           
+   2. Q: What are the key features of Tadomah Hotel?
+   <p>A: Tadomah Hotel boasts luxurious accommodations,, a rooftop infinity pool, <strong>Resense Spa</strong>, and sophisticated event venues. Our commitment to sustainability and support for local communities sets us apart.</p>
+
+   3. Q: How can I book a room at Tadomah Hotel?
+   <p>A: Booking a room is easy! Visit our official website or contact our reservations team directly. We offer a seamless online booking experience with secure payment options.</p>
+
+   4. Q: Are there dining options available at Tadomah Hotel?
+   <p>A: Absolutely! Indulge in a culinary journey at our diverse dining outlets where our talented chefs create gastronomic masterpieces from various cuisines, ensuring a delightful experience for your taste buds.</p>
+
+   5. Q: What makes Tadomah Hotel's location ideal for both leisure and business travelers?
+   <p>A: Tadomah Hotel's strategic location near the <strong>Nsawam Main Road</strong> and the <strong>Taifa Overpass</strong> provides easy access to city landmarks and ensures a convenient stay for those attending conferences or exploring the vibrant city.</p>
+
+   6. Q: Can I host events or conferences at Tadomah Hotel?
+   <p>A: Certainly! Tadomah Hotel offers sophisticated event venues equipped with cutting-edge technology, supported by our skilled events team. Our largest room can comfortably host up to a thousand people.</p>
+
+   7. Q: Is there an art gallery at Tadomah Hotel?
+   <p>A: Yes, immerse yourself in contemporary art at <strong>Gallery 1957</strong>, located within the hotel. It showcases unique pieces from emerging Ghanaian artists, adding an artistic touch to your stay.</p>
+
+   8. Q: Does Tadomah Hotel prioritize sustainability?
+   <p>A: Absolutely! Tadomah Hotel is committed to sustainability and eco-conscious practices. By choosing us, you actively contribute to our efforts to support the local community and preserve the planet.</p>
+
+   9. Q: What wellness facilities are available at Tadomah Hotel?
+   <p>A: Escape to tranquility at our luxurious <strong>Resense Spa</strong>, offering a variety of personalized treatments. Our spa therapists are dedicated to rejuvenating your body and mind.</p>
+
+   10. Q: How can I immerse myself in Ghanaian culture during my stay at Tadomah Hotel?
+<p>A: Our concierge desk offers curated experiences and activities that allow you to explore and connect with the rich heritage of Accra. Discover the city's cultural soul and make your stay truly extraordinary.</p>
+
+          </div>
+</body>
+<footer>
+  <div class="footer-content">
+    <div class="footer-section contact">
+      <h2>Contact Us</h2>
+      <p>If you have any questions or need assistance, feel free to contact us:</p>
+      <p>Email:<a href="mailto:booKTadomah@gmail.com">booKTadomah@gmail.com</a> </p>
+      <p>Phone:<a href="tel:+233596355846"> +233 596 255846</a></p>
+      <p>Address: PO BOX 238 Mile 7, Achimota</p>
+    </div>
+    
+ <div class="footer-section explore">
+  <img src="images/logo12.png" alt="image loading"height="50rem" width="80rem" >
+
+  <h2>Explore</h2>
+  <a href="about.html">About Us</a>
+  <a href="room.html">Rooms</a>
+  <a href="amenities.html">Amenities</a>
+  <a href="special.html">Specials</a>
+</div>
+
+    <div class="footer-section newsletter"><br><br><br>
+      <h2>Subscribe to Our Newsletter</h2>
+      <p>Stay updated with our latest offers and promotions. Subscribe to our newsletter!</p>
+      <form>
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+
+      <div class="social-media">
+        <h3>follow us on</h3>
+      <a href="https://www.facebook.com" target="_blank"><img src="images/facebook (1).png" alt="image loading" height="30px" width="30px"></a>
+      <a href="#" target="_blank"><img src="images/instagram (2).png" alt="image loading" height="30px" width="30px"></a>
+      <a href="#" target="_blank"><img src="images/twitter (1).png" alt="image loading" height="30px" width="30px"></a>
+    </div>
+
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2023 TadomahHotel. All Rights Reserved.</p>
+  </div>
+</footer>  
+</html>
